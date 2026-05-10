@@ -1,0 +1,14 @@
+# Generated learning notes
+学习笔记/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
