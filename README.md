@@ -154,10 +154,11 @@ npm install -g paper-reader-skill
 
 ## 使用方法
 
-安装后，在 Claude Code 中分享论文并说：
-- `学习笔记` — 生成中文学习笔记（多Agent模式）
-- `Heilmeier分析` — 生成英文批判性分析
-- `总结` — 一句话快速摘要
+安装后，在 Claude Code 中：
+- `/paper-reader <论文链接或文件路径>` — 使用 slash command
+- 分享论文并说 `学习笔记` — 生成中文学习笔记（多Agent模式）
+- 分享论文并说 `Heilmeier分析` — 生成英文批判性分析
+- 分享论文并说 `总结` — 一句话快速摘要
 
 ## 卸载
 
