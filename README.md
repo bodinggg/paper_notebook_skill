@@ -118,6 +118,60 @@ paper-reader-skill/
 - 公式用 `\left`/`\right`，括号用 `\lbrace`/`\rbrace`
 - Q6/Q7 必须标注个人观点来源
 
+## 安装方式
+
+### 方式1：运行安装脚本（推荐）
+
+**Unix/Linux/Mac:**
+```bash
+git clone https://github.com/bodinggg/paper_notebook_skill.git
+cd paper_notebook_skill
+./install.sh
+```
+
+**Windows:**
+```cmd
+git clone https://github.com/bodinggg/paper_notebook_skill.git
+cd paper_notebook_skill
+install.cmd
+```
+
+### 方式2：手动安装
+
+```bash
+# Unix
+cp -r paper-reader-skill ~/.claude/skills/
+
+# Windows
+xcopy /E /Y paper-reader-skill %USERPROFILE%\.claude\skills\
+```
+
+### 方式3：npm 安装
+
+```bash
+npm install -g paper-reader-skill
+```
+
+## 使用方法
+
+安装后，在 Claude Code 中分享论文并说：
+- `学习笔记` — 生成中文学习笔记（多Agent模式）
+- `Heilmeier分析` — 生成英文批判性分析
+- `总结` — 一句话快速摘要
+
+## 卸载
+
+```bash
+# Unix
+./uninstall.sh
+
+# Windows
+uninstall.cmd
+
+# 或手动删除
+rm -rf ~/.claude/skills/paper-reader
+```
+
 ## 许可证
 
 MIT License — 见 LICENSE 文件
